@@ -1,6 +1,7 @@
 const temperature = 90;
 const timeOfDay = "morning";
 let soilMoisture = 30;
+
 function calculateTax(amount) {
     const taxRate = 0.08;
     return amount * taxRate;
@@ -12,7 +13,7 @@ function isPalindrome(word) {
     const cleanWord = word.toLowerCase();
     
     const reverseWord = cleanWord.split('').reverse().join('');
-    retucn cleanWord === reverseWord;
+    return cleanWord === reverseWord;
 }
 
 function calculateDiscountedPrice(originalPrice, discountpercentage) {
